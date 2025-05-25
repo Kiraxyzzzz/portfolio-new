@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raiu A. Evangelista - Web Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">RAE</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="animated-background">
+                <div class="shape shape1"></div>
+                <div class="shape shape2"></div>
+                <div class="shape shape3"></div>
+                <div class="shape shape4"></div>
+            </div>
+            <div class="tech-background">
+                <i class="fab fa-html5 tech-icon"></i>
+                <i class="fab fa-css3-alt tech-icon"></i>
+                <i class="fab fa-js tech-icon"></i>
+                <i class="fab fa-php tech-icon"></i>
+                <i class="fab fa-node-js tech-icon"></i>
+                <i class="fab fa-database tech-icon"></i>
+                <i class="fab fa-git tech-icon"></i>
+                <i class="fas fa-code tech-icon"></i>
+                <i class="fas fa-mobile-alt tech-icon"></i>
+                <i class="fas fa-server tech-icon"></i>
+            </div>
+            <div class="hero-content">
+                <div class="profile-container">
+                    <div class="profile-picture">
+                        <img src="images/profile.jpg" alt="Raiu A. Evangelista">
+                    </div>
+                </div>
+                <h1>Raiu A. Evangelista</h1>
+                <h2>Web Developer & IT Professional</h2>
+                <p>Crafting modern web experiences with a focus on user-centric design and functionality.</p>
+                <div class="cta-buttons">
+                    <a href="projects.html" class="cta-button">View Projects</a>
+                    <a href="contact.html" class="cta-button secondary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Preview -->
+        <section class="preview-section">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- AI Awareness Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/ai-awareness.png" alt="Project 1" class="project-img" onclick="openModal(this.src)">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>AI Awareness Website</h3>
+                            <div class="project-badge">Champion</div>
+                        </div>
+                        <p>Web Development contest winner at PSU-Asingan Campus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-link">
+                <a href="projects.html" class="view-more">
+                    View All Projects
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Preview -->
+        <section class="preview-section">
+            <div class="about-me-section">
+                <div class="about-me-header">
+                    <div class="profile-image">
+                        <img src="images/profile.jpg" alt="Raiu A. Evangelista">
+                    </div>
+                    <div class="header-content">
+                        <h2>My Journey</h2>
+                        <p>I am a passionate web developer with a focus on creating responsive and user-friendly applications.</p>
+                    </div>
+                </div>
+
+                <div class="journey-section">
+                    <h3><i class="fas fa-code"></i> What I Do</h3>
+                    <p>I focus on building scalable web applications using modern technologies and best practices. My approach combines clean code principles with user-centric design to create engaging digital experiences.</p>
+                </div>
+
+                <div class="technical-skills">
+                    <div class="skills-category">
+                        <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3><i class="fas fa-server"></i> Backend</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-php"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="what-i-do">
+                    <div class="service-grid">
+                        <div class="service-item">
+                            <i class="fas fa-laptop"></i>
+                            <h4>Web Development</h4>
+                            <p>Creating responsive and modern websites using the latest technologies.</p>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Mobile-First Design</h4>
+                            <p>Ensuring websites work perfectly across all devices and screen sizes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-link">
+                <a href="about.html" class="view-more">
+                    Learn More About Me
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Preview -->
+        <section class="preview-section">
+            <h2>Get in Touch</h2>
+            <div class="contact-preview-content">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:estacio1108@gmail.com">estacio1108@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+63 966 167 0490</p>
+                </div>
+                <div class="social-links">
+                    <a href="http://github.com/Kiraxyzzzz" target="_blank" class="social-icon" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/raiu-evangelista-a3515b328" target="_blank" class="social-icon" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/raiu.evangelista.3/" target="_blank" class="social-icon" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_rayuxyz/" target="_blank" class="social-icon" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="section-link">
+                <a href="contact.html" class="view-more">
+                    Contact Me
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Raiu A. Evangelista. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+<!-- Add Modal Structure -->
+<div id="imageModal" class="modal">
+    <span class="modal-close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+</html> 

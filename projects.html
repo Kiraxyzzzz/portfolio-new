@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Raiu A. Evangelista</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">RAE</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects">
+            <h2>My Projects</h2>
+            <div class="accepting-projects">
+                <div class="accepting-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Accepting Projects</h3>
+                    <p>I am currently available for freelance projects and collaborations. If you have a project in mind, feel free to reach out!</p>
+                    <a href="contact.html" class="cta-button">Let's Work Together</a>
+                </div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" onclick="openModal('images/ai-awareness.png')">
+                        <img src="images/ai-awareness.png" alt="AI Awareness Project" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>AI Awareness Website</h3>
+                            <div class="project-badge">Champion</div>
+                        </div>
+                        <p>Web Development contest winner at IT Day, Pangasinan State University - Asingan Campus. Created an interactive and informative website about AI awareness using modern web technologies.</p>
+                        <div class="project-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-trophy"></i>
+                                <span>1st Place Winner</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>IT Day Competition</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" onclick="openModal('images/spot-report.jpg')">
+                        <img src="images/spot-report.jpg" alt="Spot Report System" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>CodeIgniter</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Spot Report System</h3>
+                            <div class="project-badge">Internship</div>
+                        </div>
+                        <p>Developed during internship at DENR-CAR. A comprehensive system for managing and tracking spot reports using CodeIgniter framework, improving the department's reporting efficiency.</p>
+                        <div class="project-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-building"></i>
+                                <span>DENR-CAR</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-code-branch"></i>
+                                <span>Full Stack</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" onclick="openModal('images/trikesakay.png')">
+                        <img src="images/trikesakay.png" alt="TrikeSakay App" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>TrikeSakay</h3>
+                            <div class="project-badge">Capstone</div>
+                        </div>
+                        <p>A web-based mobile application that enables users to book tricycles through their phones. Streamlines local transportation by connecting riders with available tricycle drivers.</p>
+                        <div class="project-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Mobile-First</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Thesis Project</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="academic-projects">
+                <h3>Academic Projects</h3>
+                <p>During my academic journey, I've worked on various projects that helped build my foundation in web development:</p>
+                <div class="academic-grid">
+                    <div class="academic-card">
+                        <div class="academic-content">
+                            <h4>Point of Sale System</h4>
+                            <p>A desktop-based POS system developed as a school activity, featuring inventory management and sales tracking.</p>
+                            <div class="project-tech">
+                                <span>C#</span>
+                                <span>SQL</span>
+                                <span>Windows Forms</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="academic-card">
+                        <div class="academic-content">
+                            <h4>Student Information System</h4>
+                            <p>A web-based system for managing student records and academic information, created as part of coursework.</p>
+                            <div class="project-tech">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="modal-close">&times;</span>
+        <img id="modalImage" class="modal-content" onclick="event.stopPropagation()">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Raiu A. Evangelista. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
